@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+div:not(.content) {
+    float: left;
+    padding: 2%;
+}
+
+.content {
+    clear: both;
+}
+
+.header {
+    line-height: 60px;
+    background-color: deepskyblue;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navb {
+    line-height: 5px;
+    background-color: yellow;
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: rgba(0, 0, 139, 0.76);
+    height: 800px;
+    width: 25%;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    line-height: 500px;
+}
+
+.main {
+    line-height: 500px;
+    background-color: lawngreen;
+    height: 800px;
+    width: 75%;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer {
+    background-color: orangered;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    clear: both;
+    
+}
+
+.nav > li {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    height: 30px;
+    line-height: 15px;
+    border: 1px solid #ddd;
+    border-right: 0;
+    padding: .5em 1em;
+    margin-left: -5px;
+    width: 25%;
+    cursor: pointer;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    font-weight: 500;
+}
+
+.nav>li:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.submenu {
+    border-radius: 5px;
+    text-align: left;
+    color: #cbcbcb;
+    width: 190px;
+    padding: 0px;
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    background-color: #fff;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.nav>li:hover .submenu {
+    display: block;
+    background-color: #fff;
+}
+
+.submenu li {
+    padding: .5em 15px;
+}
+
+.submenu li:hover {
+    background-color: #efefef;
+    color: #8d8d8d;
+}
+
+.nav {
+    float: left;
+    color: dimgray;
+    width: 800px;
+    font-family: Microsoft JhengHei;
+}
+
+#plane {
+    color: white;
+    margin-left: -10px;
+    margin-top: -14px;
+}
+
+.circle {
+    position: fixed;
+    left: 93%;
+    top: 88%;
+    width: 70px;
+    height: 70px;
+    background: red;
+    border-radius: 50%;
+}
